@@ -2,13 +2,17 @@ package com.example.quizzo
 
 object Constans {
 
+    const val mUserName: String = "userName"
+    const val mTotalQuestion: String = "TotalQuestions"
+    const val mCorrectAnswers: String = "CorrectAnswers"
+
     fun getQuestions(): ArrayList<Question>{
         val questionsList = ArrayList<Question>()
 
         val que1 = Question(
             1,
             "Which team has Zlatan played for?",
-            R.drawable.zlatan,
+            R.drawable.png_zlatan,
             "Fc Barcelona",
             "Liverpool",
             "Arsenal",
@@ -20,7 +24,7 @@ object Constans {
         val que2 = Question(
             2,
             "What is the name of the football player?",
-            R.drawable.messi,
+            R.drawable.png_messi,
             "Zlatan Ibrahimovic",
             "Lionel Messi",
             "Cristiano Ronaldo",
@@ -32,7 +36,7 @@ object Constans {
         val que3 = Question(
             3,
             "What is the name of the team?",
-            R.drawable.chicago,
+            R.drawable.png_chicagooow,
             "Denver Nuggets",
             "Boston Celtics",
             "Chicago Bulls",
@@ -44,7 +48,7 @@ object Constans {
         val que4 = Question(
             4,
             "What is the name of the football player?",
-            R.drawable.lottaschelin,
+            R.drawable.png_lottanyaaa,
             "Lotta Schelin",
             "Kosovare Asllani",
             "Hanna Marklund",
@@ -56,7 +60,7 @@ object Constans {
         val que5 = Question(
             5,
             "What is the name of the basketball player?",
-            R.drawable.lebronjames,
+            R.drawable.png_lebronjames,
             "Lebron James",
             "Dwayne Wade",
             "Carmelo Anthony",
@@ -68,7 +72,7 @@ object Constans {
         val que6 = Question(
             6,
             "Which league does Arsenal play in?",
-            R.drawable.arsenal,
+            R.drawable.png_arsenall,
             "Serie A",
             "Premier League",
             "La Liga",
@@ -79,8 +83,8 @@ object Constans {
 
         val que7 = Question(
             7,
-            "What is the name of this team??",
-            R.drawable.stluisblues,
+            "What is the name of this team?",
+            R.drawable.png_stluisbluesnyaa,
             "Edmonton Oilers",
             "Winnipeg Jets",
             "St. Luis Blues",
@@ -92,7 +96,7 @@ object Constans {
         val que8 = Question(
             8,
             "What position does Tom Brady play?",
-            R.drawable.tombrady,
+            R.drawable.png_tomm,
             "Quarterback",
             "Runningback",
             "Cornerback",
@@ -104,22 +108,22 @@ object Constans {
         val que9 = Question(
             9,
             "Which team plays in this league",
-            R.drawable.allsvenskan,
+            R.drawable.png_premierleague,
             "Real Madrid",
             "Aik",
             "Manchester United",
-            2
+            3
         )
 
         questionsList.add(que9)
         val que10 = Question(
             10,
             "What sport does he train in?",
-            R.drawable.mourinho,
+            R.drawable.png_pepguardiola,
             "Football",
             "Basketball",
             "ice Hockey",
-            3
+            1
         )
 
         questionsList.add(que10)

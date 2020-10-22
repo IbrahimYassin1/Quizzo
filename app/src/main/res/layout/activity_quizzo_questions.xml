@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/ic_bc_foot"
     android:fillViewport="true"
     tools:context=".QuizzoQuestionsActivity">
 
@@ -21,7 +22,7 @@
             android:layout_margin="10dp"
             android:gravity="center"
             android:text="Which team has Zlatan played for?"
-            android:textColor="#0C0000"
+            android:textColor="#fffafa"
             android:textSize="22sp"
             android:textStyle="italic" />
 
@@ -45,20 +46,24 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:indeterminate="false"
                 android:max="10"
                 android:minHeight="50dp"
                 android:progress="0"
-                android:indeterminate="false"
-                />
+                android:progressTint="#ffffff"
+                android:secondaryProgressTint="#ffffff"
+                tools:progress="3" />
+
             <TextView
                 android:id="@+id/tv_progress"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="15dp"
+                android:textColor="#ffffff"
                 android:textColorHint="#7A8089"
                 android:textSize="14sp"
-                tools:text="0/10"/>
+                tools:text="0/10" />
 
 
 
@@ -69,12 +74,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:background="@drawable/questionone"
+            android:background="@drawable/question_one"
             android:gravity="center"
             android:padding="15dp"
-            android:textColor="#7A8089"
+            android:textColor="#fffafa"
             android:textSize="18sp"
-            tools:text="Machester United"/>
+            tools:text="Machester United" />
 
         <TextView
             android:id="@+id/OptionTwo"
@@ -84,12 +89,12 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/questionone"
+            android:background="@drawable/question_one"
             android:gravity="center"
             android:padding="15dp"
-            android:textColor="#7A8089"
+            android:textColor="#fffafa"
             android:textSize="18sp"
-            tools:text="Liverpool"/>
+            tools:text="Liverpool" />
         <TextView
             android:id="@+id/OptionThree"
             android:layout_width="match_parent"
@@ -98,25 +103,24 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/questionone"
+            android:background="@drawable/question_one"
             android:gravity="center"
             android:padding="15dp"
-            android:textColor="#7A8089"
+            android:textColor="#fffafa"
             android:textSize="18sp"
-            tools:text="Valencia"/>
+            tools:text="Valencia" />
 
         <Button
             android:id="@+id/answerButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:background="#aeb0fd"
-            android:text="Answer"
-            android:textColor="@android:color/black"
+            android:background="#000000"
+            android:text="NEXT"
+            android:textColor="@android:color/white"
             android:textSize="18sp"
-            android:textStyle="bold"
-
-            />
+            android:visibility="invisible"
+            android:enabled="false"/>
 
 
 

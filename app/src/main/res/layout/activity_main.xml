@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:background="@drawable/ic_bc"
+    android:background="@drawable/ic_bc_foot"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -41,7 +41,7 @@
                   android:layout_height="wrap_content"
                   android:gravity="center"
                   android:text="Welcome!"
-                  android:textColor="#aeb0fd"
+                  android:textColor="#000000"
                   android:textSize="30sp"
                   android:textStyle="bold" />
               <TextView
@@ -63,8 +63,8 @@
                       android:layout_width="match_parent"
                       android:layout_height="wrap_content"
                       android:hint="Name"
-                      android:textColor="#aeb0fd"
-                      android:textColorHint="#7A8089"/>
+                      android:textColor="#000000"
+                      android:textColorHint="#7A8089" />
 
               </com.google.android.material.textfield.TextInputLayout>
 
@@ -74,7 +74,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:background="#aeb0fd"
+                android:background="#000000"
                 android:text="Start"
                 android:textSize="18sp"
                 android:textColor="@android:color/white">

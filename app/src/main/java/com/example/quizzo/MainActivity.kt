@@ -22,9 +22,11 @@ class MainActivity : AppCompatActivity() {
                     "Please enter your name", Toast.LENGTH_SHORT).show()
             }else{
                 val intent = Intent(this, QuizzoQuestionsActivity::class.java)
+                intent.putExtra(Constans.mUserName, et_name.text.toString())
                 startActivity(intent)
                 finish()
             }
         }
     }
 }
+
