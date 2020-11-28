@@ -9,16 +9,31 @@ import androidx.room.Room
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+
+
     private lateinit var db : AppQuizDatabase
+
+
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
         db = Room.databaseBuilder(applicationContext,AppQuizDatabase::class.java, "Quizzo-Questions")
             .fallbackToDestructiveMigration()
             .build()
-        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
 
         val Quizdata = Quizdata(0,"Quest","sport")
+
+
+
+        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
+
+
+
+
 
 
         startbutton.setOnClickListener {
@@ -32,7 +47,17 @@ class MainActivity : AppCompatActivity() {
                 finish()
             }
         }
+
+        fun saveQuizdata(quizdata: Quizdata){
+
+
+
+        }
+
+
     }
+
+
 
 }
 

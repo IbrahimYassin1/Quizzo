@@ -7,10 +7,10 @@ import androidx.room.Query
 
 @Dao
 interface QuizDao {
-    
+
      //Här Sätter jag in
     @Insert
-    fun insert(quiz:Quizdata)
+    fun insertAllData(quiz:Quizdata)
 
     // Här raderar jag
     @Delete
