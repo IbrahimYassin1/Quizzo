@@ -7,11 +7,10 @@ import android.view.View
 import android.widget.Toast
 import androidx.room.Room
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
-
-
-    private lateinit var db : AppQuizDatabase
 
 
 
@@ -21,20 +20,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        db = Room.databaseBuilder(applicationContext,AppQuizDatabase::class.java, "Quizzo-Questions")
-            .fallbackToDestructiveMigration()
-            .build()
-
-        val Quizdata = Quizdata(0,"Quest","sport")
 
 
 
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
-
-
-
-
-
 
         startbutton.setOnClickListener {
             if (et_name.text.toString().isEmpty()){
@@ -46,13 +35,10 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
                 finish()
             }
-        }
-
-        fun saveQuizdata(quizdata: Quizdata){
-
 
 
         }
+
 
 
     }
