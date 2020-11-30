@@ -22,8 +22,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb00cc34-caf9-4fd0-b172-4175f9309f7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/data/Userdatabase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/data/UserDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/data/UserDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/data/UserRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/data/Userdatabase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/data/Userdatabase.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606745955723</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added funktions and new classes">
+      <created>1606746275394</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606746275394</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -204,7 +212,8 @@
     <MESSAGE value="Room-database begin to get my questions override in funtions" />
     <MESSAGE value="Room-database user added" />
     <MESSAGE value="UserDao.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="UserDao.kt" />
+    <MESSAGE value="Added funktions and new classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added funktions and new classes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="245" y="189" key="#PSD" timestamp="1606575424998">
@@ -224,10 +233,10 @@
     </state>
     <state x="437" y="159" key="AndroidCreateResourceFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1606321785794" />
     <state x="437" y="178" width="824" height="468" key="AndroidCreateResourceFileDialog/0.23.1440.877@0.23.1440.877" timestamp="1600935962443" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1606745955561">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1606746275223">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1606745955561" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1606746275223" />
     <state x="678" y="64" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1601032130741" />
     <state x="508" y="198" key="FileChooserDialogImpl" timestamp="1606575407984">
       <screen x="0" y="0" width="1440" height="900" />
@@ -253,10 +262,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="865" y="179" key="RollbackChangesDialog/0.23.1440.877@0.23.1440.877" timestamp="1603359751551" />
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1606745957066">
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1606746276964">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606745957066" />
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606746276964" />
     <state x="861" y="246" key="chooseDestDirectoryDialog" timestamp="1600721271677">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
