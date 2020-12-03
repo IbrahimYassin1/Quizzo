@@ -24,7 +24,7 @@ object Constans {
         val que2 = Question(
             2,
             "What is the name of the football player?",
-            R.drawable.png_messi,
+            R.drawable.png_mourinho,
             "Zlatan Ibrahimovic",
             "Lionel Messi",
             "Cristiano Ronaldo",

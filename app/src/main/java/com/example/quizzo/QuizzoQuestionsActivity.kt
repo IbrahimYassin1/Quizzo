@@ -103,11 +103,11 @@ class QuizzoQuestionsActivity : AppCompatActivity(), View.OnClickListener {
                 }else{
                     val question = QuestionsList?.get(CurrentPosition -1)
                     if(question!!.correctOption != SelectedOptionPosition){
-                        answerView(SelectedOptionPosition, R.drawable.wrong_question_one)
+
                     }else{
                         CorrectAnswers++
                     }
-                    answerView(question.correctOption, R.drawable.correct_question_one)
+
 
                     if (CurrentPosition == QuestionsList!!.size){
                         answerButton.text = "FINSIH"
@@ -142,11 +142,11 @@ class QuizzoQuestionsActivity : AppCompatActivity(), View.OnClickListener {
                 }else{
                     val question = QuestionsList?.get(CurrentPosition -1)
                     if(question!!.correctOption != SelectedOptionPosition){
-                        answerView(SelectedOptionPosition, R.drawable.wrong_question_one)
+
                     }else{
                         CorrectAnswers++
                     }
-                    answerView(question.correctOption, R.drawable.correct_question_one)
+
 
                     if (CurrentPosition == QuestionsList!!.size){
                         answerButton.text = "FINSIH"
@@ -182,11 +182,11 @@ class QuizzoQuestionsActivity : AppCompatActivity(), View.OnClickListener {
                 }else{
                     val question = QuestionsList?.get(CurrentPosition -1)
                     if(question!!.correctOption != SelectedOptionPosition){
-                        answerView(SelectedOptionPosition, R.drawable.wrong_question_one)
+
                     }else{
                         CorrectAnswers++
                     }
-                    answerView(question.correctOption, R.drawable.correct_question_one)
+
 
                     if (CurrentPosition == QuestionsList!!.size){
                         answerButton.text = "FINSIH"
@@ -224,11 +224,11 @@ class QuizzoQuestionsActivity : AppCompatActivity(), View.OnClickListener {
                 }else{
                     val question = QuestionsList?.get(CurrentPosition -1)
                     if(question!!.correctOption != SelectedOptionPosition){
-                        answerView(SelectedOptionPosition, R.drawable.wrong_question_one)
+
                     }else{
                         CorrectAnswers++
                     }
-                    answerView(question.correctOption, R.drawable.correct_question_one)
+
 
                     if (CurrentPosition == QuestionsList!!.size){
                         answerButton.text = "FINSIH"
